@@ -1,3 +1,4 @@
+
 <!DOCTYPE html>
 <html lang="ru">
 <head>
@@ -19,6 +20,7 @@
         <a href="#quiz">Тест</a>
       </div>
     </nav>
+
     <div class="hero-content">
       <p class="eyebrow">Информационный проект</p>
       <h1>Лудомания — зависимость, которая разрушает жизнь</h1>
@@ -32,10 +34,23 @@
       <p class="eyebrow">01 · Понимание проблемы</p>
       <h2>Что такое лудомания?</h2>
       <p class="intro">Лудомания — это расстройство, при котором человеку становится трудно контролировать участие в азартных играх, даже если они причиняют вред.</p>
+
       <div class="info-grid">
-        <article class="card"><span class="card-number">01</span><h3>Потеря контроля</h3><p>Человек играет дольше и тратит больше денег, чем планировал.</p></article>
-        <article class="card"><span class="card-number">02</span><h3>Погоня за выигрышем</h3><p>После проигрыша появляется желание немедленно отыграться.</p></article>
-        <article class="card"><span class="card-number">03</span><h3>Вред повседневной жизни</h3><p>Игра начинает мешать учёбе, работе, отдыху и отношениям.</p></article>
+        <article class="card">
+          <span class="card-number">01</span>
+          <h3>Потеря контроля</h3>
+          <p>Человек играет дольше и тратит больше денег, чем планировал.</p>
+        </article>
+        <article class="card">
+          <span class="card-number">02</span>
+          <h3>Погоня за выигрышем</h3>
+          <p>После проигрыша появляется желание немедленно отыграться.</p>
+        </article>
+        <article class="card">
+          <span class="card-number">03</span>
+          <h3>Вред повседневной жизни</h3>
+          <p>Игра начинает мешать учёбе, работе, отдыху и отношениям.</p>
+        </article>
       </div>
     </section>
 
@@ -57,10 +72,22 @@
       <p class="eyebrow">03 · Первый шаг</p>
       <h2>Как можно помочь себе или близкому?</h2>
       <div class="help-grid">
-        <article class="help-card"><h3>Признать проблему</h3><p>Важно честно посмотреть на последствия игры и не обвинять себя.</p></article>
-        <article class="help-card"><h3>Поговорить с близким</h3><p>Поддержка человека, которому вы доверяете, может помочь сделать первый шаг.</p></article>
-        <article class="help-card"><h3>Ограничить доступ</h3><p>Можно удалить игровые приложения, заблокировать сайты и ограничить доступ к деньгам для ставок.</p></article>
-        <article class="help-card"><h3>Обратиться за помощью</h3><p>Психолог, психотерапевт или специалист по зависимостям поможет подобрать подходящую поддержку.</p></article>
+        <article class="help-card">
+          <h3>Признать проблему</h3>
+          <p>Важно честно посмотреть на последствия игры и не обвинять себя.</p>
+        </article>
+        <article class="help-card">
+          <h3>Поговорить с близким</h3>
+          <p>Поддержка человека, которому вы доверяете, может помочь сделать первый шаг.</p>
+        </article>
+        <article class="help-card">
+          <h3>Ограничить доступ</h3>
+          <p>Можно удалить игровые приложения, заблокировать сайты и ограничить доступ к деньгам для ставок.</p>
+        </article>
+        <article class="help-card">
+          <h3>Обратиться за помощью</h3>
+          <p>Психолог, психотерапевт или специалист по зависимостям поможет подобрать подходящую поддержку.</p>
+        </article>
       </div>
     </section>
 
@@ -68,13 +95,37 @@
       <p class="eyebrow">04 · Самопроверка</p>
       <h2>Небольшой тест</h2>
       <p class="intro">Отметьте утверждения, которые подходят к вашей ситуации. Это не медицинская диагностика, а повод задуматься.</p>
+
       <form id="quizForm" class="quiz">
-        <label><input type="checkbox" name="answer"> Я часто думаю об азартных играх.</label>
-        <label><input type="checkbox" name="answer"> Мне хочется отыграться после проигрыша.</label>
-        <label><input type="checkbox" name="answer"> Я скрываю от близких, сколько играю или трачу.</label>
-        <label><input type="checkbox" name="answer"> Из-за игры у меня возникали финансовые или личные проблемы.</label>
-        <label><input type="checkbox" name="answer"> Я пытался(ась) остановиться, но не получилось.</label>
-        <button class="button" type="submit">Посмотреть результат</button>
+        <label>
+          <input type="checkbox" name="answer">
+          Я часто думаю об азартных играх.
+        </label>
+
+        <label>
+          <input type="checkbox" name="answer">
+          Мне хочется отыграться после проигрыша.
+        </label>
+
+        <label>
+          <input type="checkbox" name="answer">
+          Я скрываю от близких, сколько играю или трачу.
+        </label>
+
+        <label>
+          <input type="checkbox" name="answer">
+          Из-за игры у меня возникали финансовые или личные проблемы.
+        </label>
+
+        <label>
+          <input type="checkbox" name="answer">
+          Я пытался(ась) остановиться, но не получилось.
+        </label>
+
+        <button class="button" type="submit">
+          Посмотреть результат
+        </button>
+
         <p id="quizResult" class="quiz-result" aria-live="polite"></p>
       </form>
     </section>
@@ -85,5 +136,17 @@
     <p>Если азартные игры причиняют вред, обратитесь за поддержкой к специалисту или в местную службу помощи.</p>
     <a href="#top">Вернуться наверх ↑</a>
   </footer>
+
+  <script>
+    document.getElementById("quizForm").addEventListener("submit", function(event) {
+      event.preventDefault();
+
+      // Открываем видео YouTube в новой вкладке
+      window.open(
+        "https://youtu.be/2kRF8zyy25U?si=NKZVe999pqmX3NfB",
+        "_blank"
+      );
+    });
+  </script>
 </body>
 </html>
